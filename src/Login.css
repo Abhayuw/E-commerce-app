@@ -1,0 +1,21 @@
+.Login{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+input{
+    border: 2px solid green;
+    box-shadow: 3px 2px 0px 0px black;
+}
+h5{
+    border: 2px solid black;
+    box-shadow: 3px 2px 0px 0px black;
+}
+button{
+    background-color: purple;
+    color: white;
+    margin: 10px;
+    box-shadow: 3px 2px 0px 0px black;
+}

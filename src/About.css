@@ -1,0 +1,15 @@
+.About{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5%;
+}
+.About h1{
+    border: 4px solid black;
+    height:10vh;
+    background-color: purple;
+    box-shadow: 3px 2px 0px 0px black;
+    color: white;
+    
+}

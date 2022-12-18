@@ -1,0 +1,44 @@
+.Navbar{
+  height: 5vh;
+  width: 100vw;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    background-color: transparent;
+    z-index: 5;
+  }
+  .Navbar>*:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  .Navbar>* {
+    display: flex;
+    padding: 0 4px;
+    margin: 2px;
+    border: 2px solid black;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight: bold;
+    box-shadow: 3px 2px 0px 0px black;
+  }
+ .Home_btn{
+  position: absolute;
+  top: 1px;
+  left: 1px;
+ }
+ .Navbar a{
+  color: black;
+ }
+
+ @media (max-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+
+ 
+  .About_btn{display: none;}
+}
